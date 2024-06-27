@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  overflow: hidden;
+}
+
+img{
+  width: 100%;
+  /* object-fit: cover; */
+  height: 100%;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  color: white;
+  background-color: white;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #ae7aff;
+}
+
+font label{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+form input, form textarea{
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  font-weight: 400;
+  background: none;
+  border-radius: 12px;
+  color: white;
+  border: 1px solid white;
+  resize: none;
+}
+
+form sup{
+  color: red;
+}
+
+.form-element{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.blur-background{
+  background: url('assets/profile/coverImage.png') fixed ;
+}
+
+.bg-frame{
+  background: url('assets/Frame/frame.png');
+}
